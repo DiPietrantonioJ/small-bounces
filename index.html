@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content='width=device-width,initial-scale=0.3'>
+    <title>Small Bounces</title>
+    <script src="src/phaser.js"></script>
+</head>
+<body style="margin:0;"> 
+    <style media='screen' type='text/css'>
+        @font-face {
+          font-family: FredokaOne;
+          src: url('src/fonts/FredokaOne-Regular.ttf');
+          font-weight:400;
+          font-weight:normal;
+        }
+    </style>
+    <div style="font-family:FredokaOne; position:absolute; left:-1000px; visibility:hidden;">.</div>
+
+    <!-- MENU SCENE -->
+    <script src="src/menu/menu.js"></script>
+
+    <!-- SHOP SCENE -->
+    <script src="src/shop/shop.js"></script>
+
+    <!-- INVENTORY SCENE -->
+    <script src="src/inventory/inventory.js"></script>
+
+    <!-- UI SCENE -->
+    <script src="src/ui/ui.js"></script>
+
+    <!-- LEVEL SCENE -->
+    <script src="src/level/level.js"></script>
+    <script src="src/level/world.js"></script>
+    <script src="src/level/player.js"></script>
+    <script src="src/level/cannon.js"></script>
+
+    <!-- MAIN GAME SCRIPT -->
+    <script src="src/events.js"></script>
+    <script src="src/game.js"></script>
+</body>
+</html>

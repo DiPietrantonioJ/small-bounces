@@ -1,0 +1,47 @@
+[
+    {
+        "name": "player",
+        "value": 0,
+        "unlock": true
+    },
+    {
+        "name": "defaultgirl",
+        "value": 0,
+        "unlock": true
+    },
+    {
+        "name": "playerWhite",
+        "value": 25,
+        "unlock": false
+    },
+    {
+        "name": "playerGreyStainsGirl",
+        "value": 25,
+        "unlock": false
+    },
+    {
+        "name": "playerBlackStainsGirl",
+        "value": 25,
+        "unlock": false
+    },
+    {
+        "name": "playerCatGrey",
+        "value": 75,
+        "unlock": false
+    },
+    {
+        "name": "playerCatGreyGirl",
+        "value": 75,
+        "unlock": false
+    },
+    {
+        "name": "playerCatWhite",
+        "value": 75,
+        "unlock": false
+    },
+    {
+        "name": "playerCatWhiteGirl",
+        "value": 75,
+        "unlock": false
+    }
+]
